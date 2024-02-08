@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 100px auto;
+    text-align: center;
+  }
+  
+  .error-heading {
+    font-size: 120px;
+    margin-bottom: 20px;
+    color: #dc3545;
+  }
+  
+  .error-message {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .error-description {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .back-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .back-link:hover {
+    background-color: #0056b3;
+  }
+  .navigation {
+    background-color: #333;
+    padding: 5px;
+  }
+  
+  .navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation ul li {
+
+    margin-right: 10px;
+    display: inline;
+   
+  }
+  
+  .navigation ul li a {
+    
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 160px;
+
+  }
+  .logo{
+    width: 100px;
+  }
+  .navigation ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-menu li {
+    margin: 0 10px; /* Расстояние между элементами */
+  }
+  
+  .footer-menu li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-menu li a:hover {
+    color: #e44f4f;
+    text-decoration: none;
+  }
+  
